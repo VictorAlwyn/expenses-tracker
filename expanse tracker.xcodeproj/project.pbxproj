@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		584C6FFA20A28E9F00B42ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C6FF920A28E9F00B42ED3 /* AppDelegate.swift */; };
-		584C6FFC20A28E9F00B42ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C6FFB20A28E9F00B42ED3 /* ViewController.swift */; };
+		584C6FFC20A28E9F00B42ED3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C6FFB20A28E9F00B42ED3 /* MainVC.swift */; };
 		584C6FFF20A28E9F00B42ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584C6FFD20A28E9F00B42ED3 /* Main.storyboard */; };
 		584C700220A28E9F00B42ED3 /* expanse_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 584C700020A28E9F00B42ED3 /* expanse_tracker.xcdatamodeld */; };
 		584C700420A28E9F00B42ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584C700320A28E9F00B42ED3 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		584C6FF620A28E9F00B42ED3 /* expanse tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "expanse tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		584C6FF920A28E9F00B42ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		584C6FFB20A28E9F00B42ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		584C6FFB20A28E9F00B42ED3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		584C6FFE20A28E9F00B42ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		584C700120A28E9F00B42ED3 /* expanse_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = expanse_tracker.xcdatamodel; sourceTree = "<group>"; };
 		584C700320A28E9F00B42ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +56,12 @@
 		584C6FF820A28E9F00B42ED3 /* expanse tracker */ = {
 			isa = PBXGroup;
 			children = (
+				58DACFFC20A7B9A100DA64CD /* extension */,
+				58DACFFB20A7B99C00DA64CD /* enum */,
+				58DACFFA20A7B92000DA64CD /* model */,
+				58DACFF920A7B91A00DA64CD /* view */,
+				58DACFF820A7B90900DA64CD /* controller */,
 				584C6FF920A28E9F00B42ED3 /* AppDelegate.swift */,
-				584C6FFB20A28E9F00B42ED3 /* ViewController.swift */,
 				584C6FFD20A28E9F00B42ED3 /* Main.storyboard */,
 				584C700320A28E9F00B42ED3 /* Assets.xcassets */,
 				584C700520A28E9F00B42ED3 /* LaunchScreen.storyboard */,
@@ -65,6 +69,42 @@
 				584C700020A28E9F00B42ED3 /* expanse_tracker.xcdatamodeld */,
 			);
 			path = "expanse tracker";
+			sourceTree = "<group>";
+		};
+		58DACFF820A7B90900DA64CD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				584C6FFB20A28E9F00B42ED3 /* MainVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		58DACFF920A7B91A00DA64CD /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		58DACFFA20A7B92000DA64CD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		58DACFFB20A7B99C00DA64CD /* enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		58DACFFC20A7B9A100DA64CD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584C6FFC20A28E9F00B42ED3 /* ViewController.swift in Sources */,
+				584C6FFC20A28E9F00B42ED3 /* MainVC.swift in Sources */,
 				584C700220A28E9F00B42ED3 /* expanse_tracker.xcdatamodeld in Sources */,
 				584C6FFA20A28E9F00B42ED3 /* AppDelegate.swift in Sources */,
 			);
